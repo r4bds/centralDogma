@@ -2,7 +2,7 @@
 % Please edit documentation in R/random_dna.R
 \name{random_dna}
 \alias{random_dna}
-\title{Title}
+\title{Create a random DNA strand}
 \usage{
 random_dna(dna_length)
 }
@@ -13,5 +13,5 @@ random_dna(dna_length)
 A randomly generated DNA strand
 }
 \description{
-Title
+Create a random DNA strand
 }

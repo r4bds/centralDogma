@@ -10,7 +10,7 @@ plot_abundance(peptide)
 \item{peptide}{A peptide}
 }
 \value{
-An bar chart of amino acid content
+A bar chart of amino acid content
 }
 \description{
 Plot abundance of each amino acid in a peptide
