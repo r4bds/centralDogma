@@ -1,11 +1,11 @@
-#' Transcript a list of codons into a peptide
+#' Transcribe a DNA strand into RNA
 #'
-#' @param codons A list of codons
+#' @param dna A DNA strand
 #'
-#' @return A peptide
+#' @return A RNA strand
 #' @export
 #'
-transcribe <- function(codons){
-  peptide <- paste0(codon_table[codons], collapse = "")
-  return(peptide)
+transcribe <- function(dna){
+  rna <- gsub("T", "U", dna)
+  return(rna)
 }

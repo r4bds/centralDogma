@@ -23,7 +23,6 @@ devtools::install_github("rforbiodatascience22/centralDogma")
 
 ``` r
 library(centralDogma)
-# devtools::load_all("../")
 ```
 
 #### Create a random DNA strand
@@ -35,36 +34,36 @@ a random strand can be generated.
 dna_strand <- random_dna(dna_length = 6000)
 ```
 
-#### Translate DNA into RNA
+#### Transcribe DNA into RNA
 
-The first step of the central dogma is to translate a gene (DNA strand)
+The first step of the central dogma is to transcribe a gene (DNA strand)
 into RNA
 
 ``` r
-rna_strand <- translate(dna = dna_strand)
+rna_strand <- transcribe(dna = dna_strand)
 ```
 
 #### Split RNA strand into a list of codons
 
-In reality, some post translational changes occur to the messenger RNA,
-but we will ignore that fact here. To properly transcribe the RNA, it
-needs to be converted into a list of codons.
+In reality, some post transcriptional changes occur to the messenger
+RNA, but we will ignore that fact here. To properly translate the RNA,
+it needs to be converted into a list of codons.
 
 ``` r
 codons <- codon_split(rna = rna_strand)
 ```
 
-#### Transcribe codons into a peptide
+#### Translate codons into a peptide
 
-The list of codons can then be transcribed using the `codon_table`
+The list of codons can then be translated using the `codon_table`
 provided with the package. Run `?codon_table` if you want more
 information.
 
 ``` r
-peptide <- transcribe(codons = codons)
+peptide <- translate(codons = codons)
 ```
 
-A lot of post-transcriptional changes are performed to the peptide, but
+A lot of post-translational changes are performed to the peptide, but
 this package will not apply those.
 
 You are free to explore the created peptide. Here, a function is

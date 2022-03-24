@@ -2,16 +2,16 @@
 % Please edit documentation in R/translate.R
 \name{translate}
 \alias{translate}
-\title{Translates a DNA strand into RNA}
+\title{Translate a list of codons into a peptide}
 \usage{
-translate(dna)
+translate(codons)
 }
 \arguments{
-\item{dna}{A DNA strand}
+\item{codons}{A list of codons}
 }
 \value{
-A RNA strand
+A peptide
 }
 \description{
-Translates a DNA strand into RNA
+Translate a list of codons into a peptide
 }

@@ -2,16 +2,16 @@
 % Please edit documentation in R/transcribe.R
 \name{transcribe}
 \alias{transcribe}
-\title{Transcript a list of codons into a peptide}
+\title{Transcribe a DNA strand into RNA}
 \usage{
-transcribe(codons)
+transcribe(dna)
 }
 \arguments{
-\item{codons}{A list of codons}
+\item{dna}{A DNA strand}
 }
 \value{
-A peptide
+A RNA strand
 }
 \description{
-Transcript a list of codons into a peptide
+Transcribe a DNA strand into RNA
 }

@@ -1,3 +1,3 @@
-test_that("Transcription works", {
-  expect_equal(transcribe(codon_split("AUGGUGCGCAGU")), "MVRS")
+test_that("Test transcription", {
+  expect_equal(transcribe("ATGGTTC"), "AUGGUUC")
 })
