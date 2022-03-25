@@ -32,7 +32,7 @@ devtools::install_github("rforbiodatascience22/centralDogma")
 ## Usage
 
 ```{r setup}
-library(centralDogma)
+library("centralDogma")
 ```
 
 #### Create a random DNA strand

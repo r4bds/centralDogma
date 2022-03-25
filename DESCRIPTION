@@ -1,6 +1,6 @@
 Package: centralDogma
 Title: This package simulates the central dogma of molecular biology
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Søren", "Dam", role = c("aut", "cre"), email = "sohdam@dtu.dk")
 Description: The central dogma describes the translation of DNA into RNA and transcribing that into a peptide.

@@ -1,6 +1,6 @@
 ---
 title: "centralDogma"
-output: rmarkdown::html_document
+output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{centralDogma}
   %\VignetteEngine{knitr::rmarkdown}
@@ -28,7 +28,7 @@ devtools::install_github("rforbiodatascience22/centralDogma")
 ## Usage
 
 ```{r setup}
-library(centralDogma)
+library("centralDogma")
 ```
 
 #### Create a random DNA strand
