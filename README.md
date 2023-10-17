@@ -9,14 +9,14 @@
 ## About
 
 The `centralDogma` package simulates the central dogma of molecular
-biology: DNA -> RNA -> Peptide. The package provides functions for each
-step and also a function to plot the abundance of each amino acid in a
-peptide.
+biology: DNA -\> RNA -\> Peptide. The package provides functions for
+each step and also a function to plot the abundance of each amino acid
+in a peptide.
 
 ## Installation
 
 ``` r
-devtools::install_github("rforbiodatascience22/centralDogma")
+devtools::install_github("shdam/centralDogma")
 ```
 
 ## Usage
