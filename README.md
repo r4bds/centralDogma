@@ -16,7 +16,7 @@ in a peptide.
 ## Installation
 
 ``` r
-devtools::install_github("shdam/centralDogma")
+devtools::install_github("r4bds/centralDogma")
 ```
 
 ## Usage

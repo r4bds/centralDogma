@@ -22,7 +22,7 @@ The package provides functions for each step and also a function to plot the abu
 ## Installation
 
 ```{r, eval = FALSE}
-devtools::install_github("shdam/centralDogma")
+devtools::install_github("r4bds/centralDogma")
 ```
 
 ## Usage
